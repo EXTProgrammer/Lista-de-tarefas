@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: pb;
+    src: url(peanutbutter.otf);
+}
+
+*{
+    font-family: pb;
+}
+
+body{
+    text-align: center;
+    display: block;
+    margin: 40px 70px;
+    background-image: url(https://i.pinimg.com/originals/b6/ee/ca/b6eecaa83cc89622f9a2597b65023ad4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    font-size: 3.5em;
+    background-image: url(https://media3.giphy.com/media/jaOXKCxtBPLieRLI0c/200w.gif?cid=6c09b952wz3fb06yrm0vb66loxyonyjts5mf0lz970sfb3tm&ep=v1_gifs_search&rid=200w.gif&ct=g);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button{
+    font-size: 1.2em;
+    background: #702963;
+    color: black;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background: lightskyblue;
+}
+
+input{
+    transition: 0.5s;
+}
+
+input:hover{
+    transform: scale(1.05);
+}
+
+#taskInput{
+    width: 40%;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#taskList{
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem{
+    margin-bottom: 5px;
+}
+
+.taskItem button{
+    margin-left: 5px;
+}
+
+li{
+    background: white;
+    max-width: 200px;
+    height: 100px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 300px;
+    margin-left: 32px; 
+}
+
+ul{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 200px);
+}
+
+li button{
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+footer{
+    color: gold;
+    font-size: 1.3em;
+    margin-top: 360px;
+}
+
+
+
+
+
